@@ -58,18 +58,15 @@
 }
 
 .popup{
-  /* width: 100vw; */
   width: 1920px;
-  /* height: 100vh; */
   height: 953px;
   position: fixed;
-  /* top: 0; */
   top: 0;
   left: 50%;
   margin-left: -960px;
   z-index: 99;
   box-sizing: border-box;
-  padding: 215px;
+  padding: 150px;
   text-align: center;
   background-color: rgba(234, 233, 232,0.7);
   backdrop-filter: blur(23px);
@@ -112,6 +109,7 @@
   font-weight: 500;
   font-family: "Plus Jakarta Sans", serif;
   color: #374F43;
+  padding-top: 30px;
 }
 
 .test_q{
@@ -125,6 +123,7 @@
   flex-direction: column;
   align-items: center;
   font-weight: 400;
+  margin-top: 25px;
 }
 
 .test_n li a{
@@ -149,7 +148,7 @@
 .line_wrap{
   height: 4px;
   display: flex;
-  margin-top: 95px;
+  margin-top: 110px;
 }
 
 .line_point{
