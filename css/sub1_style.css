@@ -1,0 +1,177 @@
+@charset 'utf-8';
+
+#header_wrap{
+  height: 110px;
+  border-bottom: #eee 2px solid;
+}
+
+#container1,#container2{
+  text-align: center;
+}
+
+#container1{
+  width: 1320px;
+  margin: 0 auto;
+  padding: 150px 0 110px 0;
+}
+
+.title_line{
+  width: 40px;
+  height: 3px;
+  background-color: #d7d7d7;
+  display: inline-block;
+}
+
+.sub_title{
+  font-family: "Plus Jakarta Sans", serif;
+  font-size: 44px;
+  font-weight: 400;
+  color: #374F43;
+  padding-top: 29px;
+}
+
+.logo_imgage{
+  margin: 110px 0 75px 0;
+}
+
+.slogan{
+  font-size: 30px;
+  color: #616161;
+  padding-bottom: 40px;
+} 
+
+
+/* 아코디언 */
+.vision_wrap{
+  height: 490px;
+  padding-top: 78px;
+}
+.vision {
+  position: absolute;
+  height: 490px;
+  width: 1320px;
+  display: flex;
+  overflow: hidden;
+}
+
+.number{
+  font-weight: 600;
+}
+
+.vision_word{
+  font-size: 24px;
+  font-weight: 500;
+  padding: 5px 0 27px 0;
+}
+
+.flex-about {
+  opacity: 0;
+  color: #f1f1f1;
+  position: relative;
+  width: 100%;
+  font-size: 15px;
+  padding: 65px;
+  top: 52%;
+  text-align: left;
+}
+
+.flex-slide{
+  width: 330px;
+  flex: 1;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.flex-slide:hover {
+  flex-grow: 4.2;
+}
+
+.flex-slide:hover {
+  width: 780px; 
+}
+
+.flex-slide:not(:hover) {
+  width: 180px;
+}
+
+.harmony {
+  height: 490px;
+  background: url(../images/sub1/our_story1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.connection {
+  height: 490px;
+  background: url(../images/sub1/our_story2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.integration {
+  height: 490px;
+  background: url(../images/sub1/our_story3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.sustainability {
+  height: 490px;
+  background: url(../images/sub1/our_story4.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#container2{
+  background-color: #F6F6F4;
+  padding: 120px 0 64px 0;
+}
+
+.container2_wrap{
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.content1{
+  width: 1320px;
+  height: 405px;
+  margin: 165px 0 95px 0;
+  position: relative;
+}
+
+.content1 img{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.goal{
+  font-family: "Plus Jakarta Sans", serif;
+  font-size: 32px;
+  color: #9c9c9c;
+  font-style: italic;
+  font-weight: 200;
+  text-align: end;
+  line-height: 42px;
+  position:absolute;
+  top: 0;
+  left: 0;
+} 
+
+.content2{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 162px;
+}
+
+.content2_text{
+  padding-top: 180px;
+  text-align: start;
+}
+
+.verdy_philosophy{
+  padding: 30px 0 0 23px;
+  line-height: 24px;
+}
